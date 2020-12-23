@@ -1,10 +1,11 @@
-Template for software repositories by the Caltech Library
-=====================================================
+Seabass<img width="12%" align="right" src="https://github.com/caltechlibrary/seabass/raw/main/.graphics/seabass-icon.png">
+=======
 
-This is a template README file for software repositories.  This first paragraph of the README should summarize your software in a concise fashion, preferably using no more than one or two sentences.
+Seabass (_**Se**nd **A**rchive.org **ba**tche**s** of URL**S**_) is a program that can send lists of URLs to the Wayback Machine at the Internet Archive.
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)](https://choosealicense.com/licenses/bsd-3-clause)
-[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/template.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/template/releases)
+[![Python](https://img.shields.io/badge/Python-3.6+-brightgreen.svg?style=flat-square)](http://shields.io)
+[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/seabass.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/seabass/releases)
 
 
 Table of contents
@@ -13,7 +14,6 @@ Table of contents
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Known issues and limitations](#known-issues-and-limitations)
 * [Getting help](#getting-help)
 * [Contributing](#contributing)
 * [License](#license)
@@ -24,55 +24,32 @@ Table of contents
 Introduction
 ------------
 
-This repository is a GitHub template repostory for creating software project repositories at the Caltech Library.  The [associated wiki page](https://github.com/caltechlibrary/template/wiki/Using-this-template-repo) explains how to use the template repository.
-
-This README file is in Markdown format, and is meant to provide a template for README files as well an illustration of what the README file can be expected to look like.  For a software project, this [Introduction](#introduction) section &ndash; which you are presently reading &ndash; should provide background for the project, a brief explanation of what the project is about, and optionally, pointers to resources that can help orient readers.  Ideally, this section should be short.
+Archive.org's [Wayback Machine](https://web.archive.org) is a fantastic public resource that archives the web.  The Internet Archive provides [multiple ways](https://help.archive.org/hc/en-us/articles/360001513491-Save-Pages-in-the-Wayback-Machine) of submitting web page URLs for archiving, including a network API.  Multiple open-source programs have been written to take advantage of this API, but many of them no longer work as of late 2020 because of changes in the API.  We wanted a simple, working way of sending batches of URLs to the Wayback Machine, and thus was born this program. 
+_Seabass_ (_**Se**nd **A**rchive.org **ba**tche**s** of URL**S**_) is a Python 3 program that reads a list of URLs and submits them for archiving.
 
 
 Installation
 ------------
 
-Begin this section by mentioning any prerequisites that may be important for users to have before they can use your software.  Examples include hardware and operating system requirements.
+[... Forthcoming ...]
 
-Next, provide step-by-step instructions for installing the software, preferably with command examples that can be copy-pasted by readers into their software environments. For example:
-
-```bash
-a command-line command here
-```
-
-Sometimes, subsections may be needed for different operating systems or particularly complicated installations.
- 
 
 Usage
 -----
 
-This [Usage](#usage) section would explain more about how to run the software, what kind of behavior to expect, and so on.
-
-### _Basic operation_
-
-Begin with the simplest possible example of how to use your software.  Provide example command lines and/or screen images, as appropriate, to help readers understand how the software is expected to be used.  Many readers are likely to look for command lines they can copy-paste directly from your explanations, so it's best to keep that in mind as you write examples.
-
-### _Additional options_
-
-Some projects need to communicate additional information to users and can benefit from additional sections in the README file.  It's difficult to give specific instructions &ndash; a lot depends on your software, your intended audience, etc.  Use your judgement and ask for feedback from users or colleagues to help figure out what else is worth explaining.
-
-
-Known issues and limitations
-----------------------------
-
-In this section, summarize any notable issues and/or limitations of your software.  If none are known yet, this section can be omitted (and don't forget to remove the corresponding entry in the [Table of Contents](#table-of-contents) too); alternatively, you can leave this section in and write something along the lines of "none are known at this time".
+[... Forthcoming ...]
 
 
 Getting help
 ------------
 
-Inform readers of how they can contact you, or at least how they can report problems they may encounter.  This may simply be a request to use the issue tracker on your repository, but many projects have associated chat or mailing lists, and this section is a good place to mention those.
+If you find an issue, please submit it in [the GitHub issue tracker](https://github.com/caltechlibrary/seabass/issues) for this repository.
 
 
 Contributing
 ------------
 
-This section is optional; if your repository is for a project that accepts open-source contributions, then this section is where you can mention how people can offer contributions, and point them to your guidelines for contributing.  (If you delete this section, don't forget to remove the corresponding entry in the [Table of Contents](#table-of-contents) too.)
+We would be happy to receive your help and participation with enhancing Seabass!  Please visit the [guidelines for contributing](CONTRIBUTING.md) for some tips on getting started.
 
 
 License
@@ -84,7 +61,7 @@ Software produced by the Caltech Library is Copyright (C) 2020, Caltech.  This s
 Authors and history
 ---------------------------
 
-In this section, list the authors and contributors to your software project.  Adding additional notes here about the history of the project can make it more interesting and compelling.  This is also a place where you can acknowledge other contributions to the work and the use of other people's software or tools.
+I developed the first version of this code while trying unsuccessful to use a number of other similar tools.  Recent changes in the Internet Archive's _Save Page Now_ API meant that most tools did not work.  So I wrote another one!
 
 
 Acknowledgments
@@ -92,11 +69,11 @@ Acknowledgments
 
 This work was funded by the California Institute of Technology Library.
 
-(If this work was also supported by other organizations, acknowledge them here.  In addition, if your work relies on software libraries, or was inspired by looking at other work, it is appropriate to acknowledge this intellectual debt too.)
+The [vector artwork](https://thenounproject.com/term/sea-bass/1974341/) of a sea bass, used as the icon for this repository, was created by [ProSymbols](https://thenounproject.com/prosymbols/) from the Noun Project.  It is licensed under the Creative Commons [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) license.
 
 <div align="center">
   <br>
   <a href="https://www.caltech.edu">
-    <img width="100" height="100" src="https://raw.githubusercontent.com/caltechlibrary/template/main/.graphics/caltech-round.png">
+    <img width="100" height="100" src="https://raw.githubusercontent.com/caltechlibrary/seabass/main/.graphics/caltech-round.png">
   </a>
 </div>
